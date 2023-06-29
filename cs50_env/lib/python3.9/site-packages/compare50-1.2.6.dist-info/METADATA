@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: compare50
+Version: 1.2.6
+Summary: This is compare50, with which you can compare files for similarities.
+Home-page: https://github.com/cs50/compare50
+Author: CS50
+Author-email: sysadmins@cs50.harvard.edu
+License: GPLv3
+Keywords: compare,compare50
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Education
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: attrs (<21,>=18)
+Requires-Dist: intervaltree (<4,>=3)
+Requires-Dist: lib50 (<4,>=2)
+Requires-Dist: numpy (<2,>=1.15)
+Requires-Dist: pygments (<3,>=2.2)
+Requires-Dist: jinja2 (<4,>=3)
+Requires-Dist: termcolor (<2,>=1.1.0)
+Requires-Dist: tqdm (<5,>=4.32)
+Provides-Extra: develop
+Requires-Dist: sphinx ; extra == 'develop'
+Requires-Dist: sphinx-rtd-theme ; extra == 'develop'
+Requires-Dist: sphinx-autobuild ; extra == 'develop'
+Requires-Dist: line-profiler ; extra == 'develop'
+
+UNKNOWN
+
