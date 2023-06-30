@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int calculate_years(int n_current, int n_future);
 
 int main(void)
