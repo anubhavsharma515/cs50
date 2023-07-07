@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
 
     for (int i = 0; i < 8; i++)
     {
-        printf("%c\n", plates[i].number[1]);
+        printf("%s\n", plates[i].number);
     }
     free(plates);
 }
